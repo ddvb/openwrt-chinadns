@@ -13,7 +13,7 @@ PKG_VERSION:=1.3.3
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/ddvb/ChinaDNS.git
+PKG_SOURCE_URL:=https://ddvb:E4b3k7y8-123@github.com/ddvb/ChinaDNS.git
 PKG_SOURCE_VERSION:=00616680114011553881760e843b77a3519e8fbf
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.xz
@@ -35,7 +35,7 @@ define Package/ChinaDNS
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=Protect yourself against DNS poisoning in China.
-	URL:=https://github.com/ddvb/ChinaDNS
+	URL:=https://ddvb:E4b3k7y8-123@github.com/ddvb/ChinaDNS
 endef
 
 define Package/ChinaDNS/description
